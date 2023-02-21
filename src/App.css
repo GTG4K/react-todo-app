@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.App {
+  width: 800px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > h2 {
+  color: white;
+  font-size: 32px;
+}
+
+.todos-last-row {
+  display: flex;
+  padding: 15px 0 0 0;
+  justify-content: space-between;
+}
+.todos-last-row p {
+  color: hsl(236, 13%, 39%);
+}
+
+#clear-completed {
+  cursor: pointer;
+}
+#clear-completed:hover {
+  color: hsl(235, 28%, 84%);
+}

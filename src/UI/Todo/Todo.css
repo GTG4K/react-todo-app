@@ -1,0 +1,40 @@
+.todo-container {
+  display: grid;
+  grid-template-columns: 25px 1fr 25px;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px 0;
+  border-bottom: solid 1px hsla(235, 18%, 71%, 0.2);
+}
+
+.todo-container > img {
+  display: none;
+}
+
+.todo-container:hover > img {
+  display: block;
+}
+
+.todo-container > img:hover {
+  cursor: pointer;
+}
+
+.todo-message {
+  color: hsl(236, 18%, 71%);
+  cursor: default;
+}
+
+.todo-message.completed {
+  text-decoration: line-through;
+  color: hsl(235, 14%, 33%);
+}
+
+/* light */
+.todo-message.light {
+  color: hsl(244, 10%, 33%);
+}
+
+.todo-message.light.completed {
+  text-decoration: line-through;
+  color: hsl(240, 2%, 82%);
+}

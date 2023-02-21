@@ -1,0 +1,13 @@
+.todo-input {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+.todo-input input {
+  color: hsl(235, 17%, 70%);
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}

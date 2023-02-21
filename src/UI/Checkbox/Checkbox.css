@@ -1,0 +1,43 @@
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: hsl(237, 13%, 28%);
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox.checked {
+  background: linear-gradient(
+    129deg,
+    rgba(115, 197, 251, 1) 0%,
+    rgba(126, 96, 169, 1) 100%
+  );
+}
+
+.checkbox:hover {
+  background: linear-gradient(
+    129deg,
+    rgba(115, 197, 251, 1) 0%,
+    rgba(126, 96, 169, 1) 100%
+  );
+}
+
+.checkbox-inner {
+  border-radius: 50%;
+  background-color: hsl(235, 24%, 19%);
+  width: 21px;
+  height: 21px;
+}
+
+/* light */
+
+.checkbox.light {
+  background-color: hsl(252, 17%, 94%);
+}
+
+.checkbox.light .checkbox-inner {
+  background-color: hsl(0, 0%, 100%);
+}
